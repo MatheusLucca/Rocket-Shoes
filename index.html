@@ -6,26 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Rocket Shoes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
+            <a href="">
+                <img src="assets/logo.svg" alt="logo">
+            </a>
 
+            <ul class="navbar-nav">
+                <li>Homem</li>
+                <li>Mulher</li>
+                <li>Criança</li>
+                <li>Customizar</li>
+                <li><input type="search" placeholder="Pesquisar" class="search" name="" id=""></li>
+                <li><a href=""><img src="assets/icon-bag.svg" alt="">
+                    </a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section id="info-product">
+            <h2>
+                Tênis esportivo para corrida top
+            </h2>
+            <p>Esse tênis tem o intuito de te deixar ainda mais fitness,
+                focado e musculoso.
+            </p>
+            <h3>R$ 1.000,00</h3>
+
+            <a href="">Comprar</a>
 
         </section>
 
-        <section>
-
+        <section id="images">
+            <img src="assets/tenis-1-ampliado.png" alt="Sneaker1-zoom" class="amplified" width="390" height="auto">
+            <div id="gallery">
+                <img src="assets/tenis-1-galeria.png" class="img" alt="">
+                <img src="assets/tenis-2-galeria.png" class="img" alt="">
+                <img src="assets/tenis-3-galeria.png" class="img" alt="">
+            </div>
         </section>
     </main>
     <footer>
-
+        <ul class="navbar-nav">
+            <li><iframe width="180" height="100" src="https://www.youtube.com/embed/bUVsB_NPycA" title="Sneakers"
+                    frameborder="0" allow="accelerometer; 
+                autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Youtube</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Explore Mais <img class="arrow" src="assets/icon-arrow.svg" width="20" height="20"
+                        alt=""></a></li>
+        </ul>
     </footer>
 </body>
 
