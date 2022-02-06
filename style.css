@@ -195,6 +195,7 @@ footer li:last-child a{
         margin: 0;
         display: flex;
         flex-flow: column nowrap;
+        overflow-x: auto;
         
         
     }
